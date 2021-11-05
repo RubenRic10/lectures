@@ -1,5 +1,7 @@
 
-## Datasets to play with
+## Datasets
+
+In this repository we store some datasets we can play with
 
 ### Formula 1
 
