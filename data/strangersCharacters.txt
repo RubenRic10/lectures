@@ -1,0 +1,4 @@
+Lobezno,125,hombre
+Catwoman,32,mujer
+Batman,43,hombre
+ScarletWitch,28,mujer
