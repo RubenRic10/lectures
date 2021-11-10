@@ -52,7 +52,7 @@ db.coches.find({$or : [{precio: {$gte: 15000}}, {marca: "Seat"}]}, {_id:0, marca
 db.coches.insertOne({marca: 'Opel', modelo: 'Astra'}, {$set: {precio: 15000}})
 
 db.coches.updateOne({marca: 'Opel', modelo: 'Astra'}, {$set: {precio: 60000}})
-``
+```
 
 ### 4.8 Upsert
 
