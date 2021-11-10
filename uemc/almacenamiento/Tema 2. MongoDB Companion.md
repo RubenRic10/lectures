@@ -33,7 +33,8 @@ $group
 $out
 
 ```
-db.medals.aggregate({$group: {"_id": {"año": "$Year", "ciudad": "$City"}, "medallas" : {$count: {}}}}, {$out: {db: "masterbigdata", coll: "eventos"}})
+db.medals.aggregate({$group: {"_id": {"año": "$Year", "ciudad": "$City"}, "medallas" : {$count: {}}}}
+                    , {$out: {db: "masterbigdata", coll: "eventos"}})
 
 ```
 
