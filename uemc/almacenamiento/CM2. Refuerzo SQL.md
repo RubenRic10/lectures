@@ -4,7 +4,7 @@ Este documento contiene el código utilizado en la sesión de refuerzo de SQL
 
 ### Arrancando docker de MySQL
 
-Primera vez
+Primera vez (cambiad el name y el pwd)
 ```
 docker run --name arturo-mysql -p 13306:3306 -e MYSQL_ROOT_PASSWORD=pwd -d mysql:latest
 ```
