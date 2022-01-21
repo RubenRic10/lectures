@@ -210,7 +210,6 @@ insert into catalogo
 values
 (3201, 'Lavavajillas', 'x', 'Electrodomesticos', '2019-12-02', 'blablabal', 345, 480);
 
-delete from catalogo where marca = 'x'
 ```
 
 ### Foreign Key
