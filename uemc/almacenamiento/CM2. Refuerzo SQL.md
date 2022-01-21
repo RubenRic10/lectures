@@ -218,6 +218,8 @@ delete from catalogo where marca = 'x'
 ```
 alter table ventas
 add foreign key (id_producto) references catalogo(id_producto);
+```
 
+```
 insert into ventas(id_producto, cliente, precio_venta) values(3212, 'Martin Gonzalez', 560)
 ```
