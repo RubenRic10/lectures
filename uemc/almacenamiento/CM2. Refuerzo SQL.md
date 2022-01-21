@@ -14,7 +14,7 @@ Siguientes
 docker start arturo-mysql
 ```
 
-### Conectando a mongo por linea de comandos
+### Conectando a mongo por línea de comandos
 
 ```
 docker exec -it abc-mysql bash
