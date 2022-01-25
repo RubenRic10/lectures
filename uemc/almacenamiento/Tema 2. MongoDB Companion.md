@@ -6,7 +6,7 @@ Este documento contiene el código de ejemplo utilizado en el bloque 2 del módu
 
 ### 3.2 Docker de Mongo
 ```
-docker run -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=mypassword mongo:latest
+docker run --name acg-mongodb -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=mypassword mongo:latest
 ```
 
 ## 4. Operaciones básicas
