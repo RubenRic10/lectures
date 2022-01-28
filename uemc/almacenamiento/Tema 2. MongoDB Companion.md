@@ -89,7 +89,7 @@ db.coches.dropIndex({marca: 1})
 ```
 db.coches.countDocuments()
 
-db.coches.countDocuments({precio: {gt: 20000}})
+db.coches.countDocuments({precio: {$gt: 20000}})
 
 db.coches.estimatedDocumentCount()
 
